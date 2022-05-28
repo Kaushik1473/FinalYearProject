@@ -35,7 +35,7 @@ class FaceRecognizer:
     '''
     pass
 		
-	def inputs(self,id,image):
+   def inputs(self,id,image):
     client = pymongo.MongoClient("mongodb+srv://kaushik:kd147953@project.hgun0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",tls=True,tlsAllowInvalidCertificates=True)
     collection=client['EmployeeManagementSystem']
     db=collection["EmployeeData"]
